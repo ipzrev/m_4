@@ -591,8 +591,9 @@ footer h2 {
   background-color: #f7c4ff;
   display: flex;
   align-items: flex-end;
-  padding-left: 64px;
-  padding-bottom: 64px;
+  padding: 64px;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .hero-404 h1 {
@@ -795,8 +796,11 @@ main {
 
 .contacts-2 {
   padding: 64px;
-  height: 200px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 64px;
   background-color: #ffc300;
 }
 

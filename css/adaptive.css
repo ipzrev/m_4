@@ -1,9 +1,7 @@
 /* =========================
    1024px
 ========================= */
-
 @media (max-width: 1024px) {
-  /* Общие */
   .footer {
     padding: 48px;
   }
@@ -13,7 +11,6 @@
     gap: 16px;
   }
 
-  /* Index */
   .hero {
     height: 520px;
     padding: 0 48px 48px;
@@ -37,7 +34,6 @@
     width: 50%;
   }
 
-  /* About */
   .hero-about {
     height: 520px;
   }
@@ -51,12 +47,10 @@
     height: 520px;
   }
 
-  /* Laws */
   .law-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Events */
   .event,
   .event-64 {
     padding: 48px;
@@ -69,19 +63,19 @@
     height: 450px;
   }
 
-  /* 404 */
   .hero-404 h1 {
     font-size: 96px;
+  }
+
+  .contacts-2 {
+    padding: 48px;
   }
 }
 
 /* =========================
    768px
 ========================= */
-
 @media (max-width: 768px) {
-  /* Общие */
-
   .footer {
     padding: 32px;
   }
@@ -96,8 +90,6 @@
     align-items: flex-start;
     gap: 24px;
   }
-
-  /* Index */
 
   .hero {
     height: 420px;
@@ -148,8 +140,6 @@
     width: 100%;
   }
 
-  /* About */
-
   .hero-about {
     height: 420px;
   }
@@ -168,8 +158,6 @@
     height: 420px;
   }
 
-  /* Laws */
-
   .law-grid {
     grid-template-columns: 1fr;
   }
@@ -177,8 +165,6 @@
   .law-p {
     max-width: 100%;
   }
-
-  /* Events */
 
   .event,
   .event-64 {
@@ -197,8 +183,6 @@
     width: 100%;
   }
 
-  /* 404 */
-
   .hero-404 {
     padding: 32px;
   }
@@ -206,15 +190,20 @@
   .hero-404 h1 {
     font-size: 64px;
   }
+
+  .contacts-2 {
+    padding: 32px;
+  }
+
+  .contacts-2 p {
+    width: 100%;
+  }
 }
 
 /* =========================
    414px
 ========================= */
-
 @media (max-width: 414px) {
-  /* Общие */
-
   .footer {
     padding: 24px 16px;
   }
@@ -241,8 +230,6 @@
     line-height: 140%;
   }
 
-  /* Index */
-
   .hero {
     height: 360px;
     padding: 0 16px 16px;
@@ -268,8 +255,6 @@
     height: 48px;
     font-size: 16px;
   }
-
-  /* About */
 
   .hero-about {
     height: 320px;
@@ -301,8 +286,6 @@
     height: 280px;
   }
 
-  /* Laws */
-
   .law-2026,
   .law-2025 {
     padding: 16px;
@@ -315,8 +298,6 @@
   h3 {
     font-size: 22px;
   }
-
-  /* Events */
 
   .event,
   .event-64 {
@@ -333,9 +314,11 @@
     padding: 16px;
   }
 
-  /* 404 */
-
   .hero-404 h1 {
     font-size: 40px;
+  }
+
+  .contacts-2 {
+    padding: 16px;
   }
 }
