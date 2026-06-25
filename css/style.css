@@ -589,7 +589,7 @@ footer h2 {
   display: flex;
   align-items: flex-end;
   padding: 64px;
-  padding-bottom: 96px;
+  margin-top: 96px;
   overflow: hidden;
   min-width: 0;
 }
