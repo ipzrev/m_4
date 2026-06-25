@@ -519,7 +519,6 @@ footer h2 {
 .navigation a:hover {
   opacity: 0.6;
 }
-/**about**/
 
 .hero-about {
   height: 600px;
@@ -584,8 +583,6 @@ footer h2 {
   background: #f0f0f0;
 }
 
-/**404**/
-
 .hero-404 {
   flex: 1;
   background-color: #f7c4ff;
@@ -621,8 +618,6 @@ main {
   display: flex;
   flex-direction: column;
 }
-
-/**404**/
 
 .law-2026 {
   background-color: #ef89ff;
@@ -714,8 +709,6 @@ main {
   font-size: 46px;
   line-height: 110%;
 }
-
-/**event**/
 
 .event {
   background-color: #ef89ff;
