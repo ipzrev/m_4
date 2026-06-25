@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Павер | 4</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/adaptive.css" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+
+    <script src="js/gsap.min.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <button class="menu-btn">меню</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="menu-overlay">
+          <nav class="menu">
+            <a href="index.html" class="menu-item">главная</a>
+            <a href="about.html" class="menu-item">о нас</a>
+            <a href="laws.html" class="menu-item">обновление законов</a>
+            <a href="events.html" class="menu-item">события</a>
+            <a href="contacts.html" class="menu-item">контакты</a>
+            <a
+              href="https://ipzrev.github.io/web-poster/"
+              class="menu-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              павер kids
+            </a>
+          </nav>
+        </div>
+        <h1>
+          <span class="line">
+            <span class="word">
+              <span class="italic"><em>«Павер»</em></span> — право
+            </span>
+          </span>
+          <span class="line">
+            <span class="word">быть зверем</span>
+          </span>
+        </h1>
+        <div class="cursor-mask">
+          <div class="mask-gif"></div>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2>Кто мы?</h2>
+        <div class="divider"></div>
+        <p>
+          «Павер» — это юридическая контора по защите домашних животных. Мы
+          знаем, где заканчивается бесплатный сыр и начинаются юридические
+          риски, поэтому помогаем защитить интересы ваших питомцев без
+          неприятных последствий.
+        </p>
+      </section>
+
+      <section class="video">
+        <button class="video-btn" onclick="window.location.href = 'about.html'">
+          подробнее
+        </button>
+      </section>
+
+      <section class="cases">
+        <h2>Кейсы</h2>
+        <div class="divider"></div>
+        <p>
+          Разбитые вазы, съеденные тапки и&nbsp;сорванные шторы. Мы не судим —
+          мы&nbsp;защищаем интересы питомцев. Ознакомьтесь с наиболее
+          резонансными делами из нашей практики.
+        </p>
+      </section>
+
+      <section class="cases-cards">
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar"></div>
+            <h3>Крыска Лариска</h3>
+          </div>
+          <div class="case-body">
+            <p>
+              Хозяева демонтировали гипсокартонную стену, не&nbsp;уведомив
+              проживавшую в&nbsp;ней&nbsp;крысу Ларису.
+            </p>
+            <p>
+              Результат: восстановление жилищных прав и две пачки крекеров в
+              качестве компенсации.
+            </p>
+          </div>
+          <div class="case-tags">
+            <button>статья 22.4</button>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar"></div>
+            <h3>Хомяк Борис</h3>
+          </div>
+          <div class="case-body">
+            <p>Борис частично демонтировал диван в&nbsp;отсутствие хозяев.</p>
+            <p>
+              Результат: Наш клиент получил новые игрушки, стороны смогли
+              урегулировать конфликт в&nbsp;досудебном порядке.
+            </p>
+          </div>
+          <div class="case-tags">
+            <button>статья 16.1</button>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="case-top">
+            <div class="case-avatar"></div>
+            <h3>Хомяк Степан</h3>
+          </div>
+          <div class="case-body">
+            <p>
+              Степан регулярно устраивал ночные забеги в колесе и&nbsp;требовал
+              дополнительного света после полуночи, мешая хозяевам спать.
+            </p>
+            <p>Результат: cуд признал право Степана на ночную активность.</p>
+          </div>
+          <div class="case-tags">
+            <button>статья 13.5</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pre-form">
+        <h2>Что дальше?</h2>
+        <div class="divider"></div>
+        <p>
+          Заполните форму и расскажите, что вы натворили. Мы внимательно
+          разберёмся в ситуации, отделим случайность от умысла и подумаем, как
+          помочь всем сторонам конфликта.
+        </p>
+      </section>
+
+      <section class="fos">
+        <div class="form-image"></div>
+        <form class="form" id="form">
+          <input type="text" placeholder="кличка" />
+          <input type="text" placeholder="адрес" />
+          <button type="submit">отправить</button>
+          <p class="error" id="error"></p>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="navigation">
+          <a href="./about.html">о нас</a>
+          <a href="./laws.html">обновление законов</a>
+          <a href="./events.html">события</a>
+          <a href="./contacts.html">контакты</a>
+          <a href="https://ipzrev.github.io/web-poster/">павер kids</a>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-bottom">
+          <h2>©2026</h2>
+          <div class="socials">
+            <img src="./assets/icons/telegram-plane.png" />
+            <img src="./assets/icons/gratipay.png" />
+            <img src="./assets/icons/snapchat-ghost.png" />
+          </div>
+        </div>
+      </footer>
+    </main>
+    <div class="popup" id="popup-form">
+      <div class="popup-content">
+        <div class="popup-text">
+          <h3>Ваша заявка принята!</h3>
+          <div class="divider"></div>
+          <p class="law-p">Сова скоро принесёт вам бланк для заявления*</p>
+        </div>
+        <button class="popup-close">оки</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,341 @@
+/* =========================
+   1024px
+========================= */
+
+@media (max-width: 1024px) {
+  /* Общие */
+  .footer {
+    padding: 48px;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  /* Index */
+  .hero {
+    height: 520px;
+    padding: 0 48px 48px;
+  }
+
+  .hero h1 {
+    font-size: 96px;
+  }
+
+  .cases-cards {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .case-card {
+    width: calc(50% - 12px);
+  }
+
+  .form,
+  .form-image {
+    width: 50%;
+  }
+
+  /* About */
+  .hero-about {
+    height: 520px;
+  }
+
+  .gallery .track img {
+    width: 480px;
+    height: 340px;
+  }
+
+  .plan {
+    height: 520px;
+  }
+
+  /* Laws */
+  .law-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Events */
+  .event,
+  .event-64 {
+    padding: 48px;
+  }
+
+  .event1,
+  .event2,
+  .event3 {
+    width: 320px;
+    height: 450px;
+  }
+
+  /* 404 */
+  .hero-404 h1 {
+    font-size: 96px;
+  }
+}
+
+/* =========================
+   768px
+========================= */
+
+@media (max-width: 768px) {
+  /* Общие */
+
+  .footer {
+    padding: 32px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  /* Index */
+
+  .hero {
+    height: 420px;
+    padding: 0 32px 32px;
+  }
+
+  .hero h1 {
+    font-size: 64px;
+  }
+
+  .about,
+  .cases,
+  .pre-form,
+  .law-2026,
+  .law-2025 {
+    padding: 32px;
+  }
+
+  .cases-cards {
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  .case-card {
+    width: 100%;
+  }
+
+  .video {
+    height: 420px;
+  }
+
+  .fos {
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  .form,
+  .form-image {
+    width: 100%;
+  }
+
+  .form-image {
+    height: 240px;
+  }
+
+  .form button,
+  .law-button {
+    width: 100%;
+  }
+
+  /* About */
+
+  .hero-about {
+    height: 420px;
+  }
+
+  .gallery .track {
+    padding: 32px;
+    gap: 16px;
+  }
+
+  .gallery .track img {
+    width: 360px;
+    height: 260px;
+  }
+
+  .plan {
+    height: 420px;
+  }
+
+  /* Laws */
+
+  .law-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .law-p {
+    max-width: 100%;
+  }
+
+  /* Events */
+
+  .event,
+  .event-64 {
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  .event1,
+  .event2,
+  .event3 {
+    width: 100%;
+    height: 420px;
+  }
+
+  .event-content {
+    width: 100%;
+  }
+
+  /* 404 */
+
+  .hero-404 {
+    padding: 32px;
+  }
+
+  .hero-404 h1 {
+    font-size: 64px;
+  }
+}
+
+/* =========================
+   414px
+========================= */
+
+@media (max-width: 414px) {
+  /* Общие */
+
+  .footer {
+    padding: 24px 16px;
+  }
+
+  .navigation a {
+    font-size: 18px;
+  }
+
+  .footer-bottom h2 {
+    font-size: 28px;
+  }
+
+  .socials img {
+    width: 20px;
+    height: 20px;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    line-height: 140%;
+  }
+
+  /* Index */
+
+  .hero {
+    height: 360px;
+    padding: 0 16px 16px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .cases-cards,
+  .fos {
+    padding: 16px;
+  }
+
+  .video {
+    height: 260px;
+    padding: 16px;
+  }
+
+  .video-btn,
+  .law-button,
+  .form button {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  /* About */
+
+  .hero-about {
+    height: 320px;
+  }
+
+  .about {
+    padding: 16px;
+  }
+
+  .gallery .track {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .gallery .track img {
+    width: 260px;
+    height: 180px;
+  }
+
+  .gallery-btn {
+    right: 16px;
+    bottom: 16px;
+    height: 44px;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  .plan {
+    height: 280px;
+  }
+
+  /* Laws */
+
+  .law-2026,
+  .law-2025 {
+    padding: 16px;
+  }
+
+  .law-card {
+    padding: 16px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  /* Events */
+
+  .event,
+  .event-64 {
+    padding: 16px;
+  }
+
+  .event1,
+  .event2,
+  .event3 {
+    height: 320px;
+  }
+
+  .event-content {
+    padding: 16px;
+  }
+
+  /* 404 */
+
+  .hero-404 h1 {
+    font-size: 40px;
+  }
+}
