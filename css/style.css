@@ -608,6 +608,7 @@ footer h2 {
 
 html,
 body {
+  background-color: #f7c4ff;
   height: 100%;
   margin: 0;
   scrollbar-gutter: stable;
@@ -804,3 +805,4 @@ main {
   font-size: 24px;
   opacity: 50%;
 }
+
