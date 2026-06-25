@@ -52,7 +52,7 @@ a {
 .menu-overlay {
   position: fixed;
   inset: 0;
-  background: #ef89ff;
+  background: #ffc300;
   z-index: 99;
   display: flex;
   justify-content: center;
